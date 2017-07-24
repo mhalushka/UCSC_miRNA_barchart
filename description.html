@@ -1,0 +1,61 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+
+<h2>Description</h2>
+
+<p>These tracks are miRNA expression levels of 48 primary cell types and 42 cancer/immortalized cell lines. Cells were generally grown in culture or were flow sorted. Each cell type may be the average of several similar cells or the data from a single cell line/culture. Data is expressed in reads per million miRNA reads (RPM) through analysis performed through the miRNA alignment software <a href="http://atlas.pathology.jhu.edu/baras/miRge.html">miRge</a>. This data is not otherwise normalized.  A second value, RUV (Remove unwanted variation) is the result of an analysis that normalized across the samples. RUV values are lower and have negative (O) values for many miRNAs that are lowly expressed by RPM values.  The data is not log normalized. </p>
+
+<h2>Display Conventions and Configuration</h2>
+	
+<p>Primary cell tracks are colored black and cancer cells tracks are colored red. The data is best viewed with a "pack" configuration and individual sample tracks can be toggled on or off. Clicking on a given sample will reveal additional information about the sample including the RUV score value.
+</p>
+
+<h2>Methods</h2>
+
+<h3>Process 1</h3>
+
+Data was obtained from the Sequence Read Archive or from primary cells grown in culture.  Fastq files were processed with <a href="http://atlas.pathology.jhu.edu/baras/miRge.html">miRge</a> for counting miRNAs. miRNAs were normalized to reads per million miRNA reads (RPM).
+
+<h3>Process 2</h3>
+	
+Additional processing was performed with the Remove Unwanted Variation (RUV) method to normalize across samples. The miRNA matrix file with RUV values for each miRNA for each data sets can be found here: <a href="http://bp.inhouseprotocols.com/Marc/barchart/miRNA_primary_RUV_matrix.txt">Primary cells</a> and <a href="http://bp.inhouseprotocols.com/Marc/barchart/miRNA_cancer_RUV_matrix.txt">Cancer cells</a>. 
+
+<h3>Notes</h3>
+	
+For a full description of the method, please see the methods section of the manuscript below (McCall et al 2017).
+
+<p></p>
+	
+</ul>
+
+<h2>Data Access</h2>
+
+All primary data is available through the Sequence Read Archive.  Specific sample information can be obtained through the "cellular microRNAome" manuscript listed below. 	
+
+<h2>Credits</h2>
+
+<p>Matthew N. McCall, Arun H. Patil, Min-Sik Kim, Mohammed Adil, Yin Lu, Christopher J. Mitchell, Pamela Leal-Rojas, Jinchong Xu, Manoj Kumar, Valina L. Dawson, Ted M. Dawson, Alexander S. Baras, Avi Z. Rosenberg, Dan E. Arking, Kathleen H. Burns, Akhilesh Pandey, Marc K. Halushka
+
+</p><p>
+
+For inquiries, please contact Marc Halushka at halushka@jhmi.edu
+	
+</p>
+	
+<h2>References</h2>
+
+<p>
+
+1. Matthew N. McCall, Min-Sik Kim, Mohammed Adil, Arun H. Patil, Yin Lu, Christopher J. Mitchell, Pamela Leal-Rojas, Jinchong Xu, Manoj Kumar, Valina L. Dawson, Ted M. Dawson, Alexander S. Baras, Avi Z. Rosenberg, Dan E. Arking, Kathleen H. Burns, Akhilesh Pandey, Marc K. Halushka. Towards the human cellular microRNAome. <a href="http://biorxiv.org/content/early/2017/03/24/120394" target="_blank">BioRxiv</a>, 2017.
+
+</p><p>
+
+2. Baras AS, Mitchell CJ, Myers JR, Gupta S, Weng LC, Ashton JM, Cornish TC, Pandey A, Halushka MK. miRge - A Multiplexed Method of Processing Small RNA-Seq Data to Determine MicroRNA Entropy. <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0143066" target="_blank">PLoS One</a>. 2015 Nov 16;10(11):e0143066.
+
+</p>
+	
+</body>
+</html>
