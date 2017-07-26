@@ -4,14 +4,14 @@ barChartBars Astrocyte Cortical_neuron Dopaminergic_neuron H9_differentiated_for
 barChartColors #F9A451 #8EBC8F #8EBC8F #8EBC8F #8EBC8F #8EBC8F #8EBC8F #8EBC8F #8B2063 #8B2063 #EE6A50 #ED2024 #ED2024 #ED2024 #ED2024 #ED2024 #ED2024 #ED2024 #ED2024 #ED2024 #CDB79E #EBE71A #EBE71A #EBE71A #EBE71A #3BC0C4 #3BC0C4 #CE8ABC #9AC0CD #9AC0CD #EED5D2 #EED5D2 #CDB79E #CDB79E #CDB79E #CDB79E #CDB79E #CDB79E #CDB79E #CDB79E #CDB79E #CDB79E #9C5BA4 #9C5BA4 #9C5BA4 #9C5BA4 #4662AD #FED39C
 shortLabel Primary cells 
 longLabel miRNA expression of primary cells
-bigDataUrl http://github.com/mhalushka/UCSC_miRNA_barchart/blob/master/miRNA_primary_barchart.bb
+bigDataUrl https://github.com/mhalushka/UCSC_miRNA_barchart/master/miRNA_primary_barchart.bb
 barChartLabel Tissues
 barChartUnit RPM
-barChartMatrixUrl http://github.com/mhalushka/UCSC_miRNA_barchart/blob/master/miRNA_primary_RPM_matrix.txt
-barChartSampleUrl http://github.com/mhalushka/UCSC_miRNA_barchart/blob/master/categoriesFile_primary.txt 
+barChartMatrixUrl https://github.com/mhalushka/UCSC_miRNA_barchart/master/miRNA_primary_RPM_matrix.txt
+barChartSampleUrl https://github.com/mhalushka/UCSC_miRNA_barchart/master/categoriesFile_primary.txt 
 visibility pack
 defaultPos chr9:136670616-136670636
-htmlPath http://github.com/mhalushka/UCSC_miRNA_barchart/blob/master/hg38/primary.html
+htmlPath https://github.com/mhalushka/UCSC_miRNA_barchart/master/hg38/primary.html
 priority 1
 
 track cancer_cells
@@ -20,11 +20,11 @@ barChartBars HAF1608 HELF977 IMR90 Beas-2B Mammary_Epithelial MCF10A MCF7 MDA-DB
 barChartColors #F9A451 #F9A451 #F9A451 #8EBC8F #8EBC8F #8EBC8F #8EBC8F #8EBC8F #8EBC8F #8B2063 #8B2063 #8B2063 #8B2063 #8B2063 #EE6A50 #EE6A50 #EE6A50 #EE6A50 #EE6A50 #EE6A50 #EE6A50 #EE6A50 #ED2024 #CDB79E #EBE71A #EBE71A #EBE71A #EBE71A #EBE71A #EBE71A #3BC0C4 #3BC0C4 #CE8ABC #9AC0CD #9AC0CD #EED5D2 #CDB79E #9C5BA4 #9C5BA4 #4662AD #4662AD #4662AD 
 shortLabel Cancer cells
 longLabel miRNA expression of cancer cells
-bigDataUrl http://github.com/mhalushka/UCSC_miRNA_barchart/blob/master/miRNA_cancer_barchart.bb
+bigDataUrl https://github.com/mhalushka/UCSC_miRNA_barchart/master/miRNA_cancer_barchart.bb
 barChartLabel Tissues
 barChartUnit RPM
-barChartMatrixUrl http://github.com/mhalushka/UCSC_miRNA_barchart/blob/master/miRNA_cancer_RPM_matrix.txt
-barChartSampleUrl http://github.com/mhalushka/UCSC_miRNA_barchart/blob/master/categoriesFile_cancer.txt
+barChartMatrixUrl https://github.com/mhalushka/UCSC_miRNA_barchart/master/miRNA_cancer_RPM_matrix.txt
+barChartSampleUrl https://github.com/mhalushka/UCSC_miRNA_barchart/master/categoriesFile_cancer.txt
 defaultPos chr9:136670616-136670636
-htmlPath http://github.com/mhalushka/UCSC_miRNA_barchart/blob/master/hg38/cancer.html
+htmlPath https://github.com/mhalushka/UCSC_miRNA_barchart/master/hg38/cancer.html
 visibility pack
