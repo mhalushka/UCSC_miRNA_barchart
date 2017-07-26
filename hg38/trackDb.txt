@@ -3,15 +3,15 @@ type bigBarChart
 barChartBars Astrocyte Cortical_neuron Dopaminergic_neuron H9_differentiated_forebrain H9_differentiated_mesenchymal H9_differentiated_midbrain iPSC_neuron Neural_stem Embryonic_stem iPSC_cardiomyocyte Endothelial Biliosphere Bronchial_epithelial Colonic_epithelial Islet_alpha Islet_beta Keratinocyte_epithelial Mammary_epithelial Prostate_epithelial Renal_epithelial Retinal_pigment_epithelial Fibroblast Smooth_muscle Valve_interstitial Mesangial Myoblast Myotube Melanocyte Corona_radiata Cumulus_oophorus Chondrocyte Osteoblast B_lymphocyte_CD77 B_lymphocyte_centroblast B_lymphocyte_centrocyte B_lymphocyte_memory B_lymphocyte_naive B_lymphocyte_pregerminal_center Plasma CD3_T_lymphocyte CD4_T_lymphocyte CD8_T_lymphocyte Dendritic Macrophage Monocyte CD14_monocyte Platelet Red_blood
 barChartColors #F9A451 #8EBC8F #8EBC8F #8EBC8F #8EBC8F #8EBC8F #8EBC8F #8EBC8F #8B2063 #8B2063 #EE6A50 #ED2024 #ED2024 #ED2024 #ED2024 #ED2024 #ED2024 #ED2024 #ED2024 #ED2024 #CDB79E #EBE71A #EBE71A #EBE71A #EBE71A #3BC0C4 #3BC0C4 #CE8ABC #9AC0CD #9AC0CD #EED5D2 #EED5D2 #CDB79E #CDB79E #CDB79E #CDB79E #CDB79E #CDB79E #CDB79E #CDB79E #CDB79E #CDB79E #9C5BA4 #9C5BA4 #9C5BA4 #9C5BA4 #4662AD #FED39C
 shortLabel Primary cells 
-longLabel miRNA expression of primary cells
-bigDataUrl https://github.com/mhalushka/UCSC_miRNA_barchart/blob/master/miRNA_primary_barchart.bb
+longLabel miRNA expression of primary cells
+bigDataUrl ../miRNA_primary_barchart.bb
 barChartLabel Tissues
 barChartUnit RPM
-barChartMatrixUrl https://github.com/mhalushka/UCSC_miRNA_barchart/blob/master/miRNA_primary_RPM_matrix.txt
-barChartSampleUrl https://github.com/mhalushka/UCSC_miRNA_barchart/blob/master/categoriesFile_primary.txt 
+barChartMatrixUrl https://github.com/mhalushka/UCSC_miRNA_barchart/master/blob/miRNA_primary_RPM_matrix.txt
+barChartSampleUrl https://github.com/mhalushka/UCSC_miRNA_barchart/master/blob/categoriesFile_primary.txt 
 visibility pack
 defaultPos chr9:136670616-136670636
-htmlPath https://github.com/mhalushka/UCSC_miRNA_barchart/blob/master/hg38/primary.html
+htmlPath https://github.com/mhalushka/UCSC_miRNA_barchart/master/blob/hg38/primary.html
 priority 1
 
 track cancer_cells
@@ -20,11 +20,11 @@ barChartBars HAF1608 HELF977 IMR90 Beas-2B Mammary_Epithelial MCF10A MCF7 MDA-DB
 barChartColors #F9A451 #F9A451 #F9A451 #8EBC8F #8EBC8F #8EBC8F #8EBC8F #8EBC8F #8EBC8F #8B2063 #8B2063 #8B2063 #8B2063 #8B2063 #EE6A50 #EE6A50 #EE6A50 #EE6A50 #EE6A50 #EE6A50 #EE6A50 #EE6A50 #ED2024 #CDB79E #EBE71A #EBE71A #EBE71A #EBE71A #EBE71A #EBE71A #3BC0C4 #3BC0C4 #CE8ABC #9AC0CD #9AC0CD #EED5D2 #CDB79E #9C5BA4 #9C5BA4 #4662AD #4662AD #4662AD 
 shortLabel Cancer cells
 longLabel miRNA expression of cancer cells
-bigDataUrl https://github.com/mhalushka/UCSC_miRNA_barchart/blob/master/miRNA_cancer_barchart.bb
+bigDataUrl https://github.com/mhalushka/UCSC_miRNA_barchart/master/blob/miRNA_cancer_barchart.bb
 barChartLabel Tissues
 barChartUnit RPM
-barChartMatrixUrl https://github.com/mhalushka/UCSC_miRNA_barchart/blob/master/miRNA_cancer_RPM_matrix.txt
-barChartSampleUrl https://github.com/mhalushka/UCSC_miRNA_barchart/blob/master/categoriesFile_cancer.txt
+barChartMatrixUrl https://github.com/mhalushka/UCSC_miRNA_barchart/master/blob/miRNA_cancer_RPM_matrix.txt
+barChartSampleUrl https://github.com/mhalushka/UCSC_miRNA_barchart/master/blob/categoriesFile_cancer.txt
 defaultPos chr9:136670616-136670636
-htmlPath https://github.com/mhalushka/UCSC_miRNA_barchart/blob/master/hg38/cancer.html
+htmlPath https://github.com/mhalushka/UCSC_miRNA_barchart/master/blob/hg38/cancer.html
 visibility pack
