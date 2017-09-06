@@ -5,15 +5,13 @@
 <body>
 
 <h2>Description</h2>
+<p>These tracks are miRNA expression levels of 48 primary cell types and 42 cancer/immortalized cell lines. Cells were generally grown in culture or were flow sorted. Each cell type may be the average of several similar cells or the data from a single cell line/culture. Data is expressed in reads per million miRNA reads (RPM) through analysis performed through the miRNA alignment software <a href="http://atlas.pathology.jhu.edu/baras/miRge.html">miRge</a>. This data is not otherwise normalized.  
 
-<p>These tracks are miRNA expression levels of 48 primary cell types and 42 cancer/immortalized cell lines. Cells were generally grown in culture or were flow sorted. Each cell type may be the average of several similar cells or the data from a single cell line/culture. Data is expressed in reads per million miRNA reads (RPM) through analysis performed through the miRNA alignment software <a href="http://atlas.pathology.jhu.edu/baras/miRge.html">miRge</a>. This data is not otherwise normalized.  A second value, RUV (Remove unwanted variation) is the result of an analysis that normalized across the samples. RUV values are lower and have negative (O) values for many miRNAs that are lowly expressed by RPM values.  The data is not log normalized. </p>
-
+<p>A separate processing step was carried out, although not part of the display, which normalized across all samples via the RUV (Remove Unwanted Variation) process. Please see Process 2 in
+ the Methods section for more information. This data is not log normalized.</p>
 <h2>Display Conventions and Configuration</h2>
 	
-<p>Cells are color coded by general clustering of similar cell types. Data is normalized as reads per million miRNA reads (RPM). The data is best viewed with a "pack" or "full" 
-configuration.  Clicking on the chart will reveal more appropriate 
-relative differences of miRNA expression including maximum value.  On this second page is the option to "Go to Cancer cells track controls."  We recommend that one
-unselects Log10(x+1)transform and has the view limit maximum set to 10000.
+<p>Primary cell tracks are colored black and cancer cells tracks are colored red. The data is best viewed with a "pack" configuration and individual sample tracks can be toggled on or off. Clicking on a given sample will reveal additional information about the sample including the RUV score value.
 </p>
 
 <h2>Methods</h2>
@@ -23,7 +21,7 @@ unselects Log10(x+1)transform and has the view limit maximum set to 10000.
 Data was obtained from the Sequence Read Archive or from primary cells grown in culture.  Fastq files were processed with <a href="http://atlas.pathology.jhu.edu/baras/miRge.html">miRge</a> for counting miRNAs. miRNAs were normalized to reads per million miRNA reads (RPM).
 
 <h3>Process 2</h3>
-
+	
 Additional processing was performed with the Remove Unwanted Variation (RUV) method to normalize across samples. The miRNA matrix file with RUV values for each miRNA for each data sets can be found here: <a href="https://raw.githubusercontent.com/mhalushka/UCSC_miRNA_barchart/master/hg38/miRNA_primary_RUV_matrix.txt">Primary cells</a> and <a href="https://raw.githubusercontent.com/mhalushka/UCSC_miRNA_barchart/master/hg38/miRNA_cancer_RUV_matrix.txt">Cancer cells</a>. 
 
 <h3>Notes</h3>
@@ -52,9 +50,7 @@ For inquiries, please contact Marc Halushka at halushka@jhmi.edu
 
 <p>
 
-1. Matthew N. McCall, Min-Sik Kim, Mohammed Adil, Arun H. Patil, Yin Lu, Christopher J. Mitchell, Pamela Leal-Rojas, Jinchong Xu, Manoj Kumar, Valina L. Dawson, Ted M. Dawson,
- Alexander S. Baras, Avi Z. Rosenberg, Dan E. Arking, Kathleen H. Burns, Akhilesh Pandey, Marc K. Halushka. Towards the human cellular microRNAome.
- <a href="http://biorxiv.org/content/early/2017/03/24/120394" target="_blank">BioRxiv</a>, 2017. (And Genome Research, 2017)
+1. Matthew N. McCall, Min-Sik Kim, Mohammed Adil, Arun H. Patil, Yin Lu, Christopher J. Mitchell, Pamela Leal-Rojas, Jinchong Xu, Manoj Kumar, Valina L. Dawson, Ted M. Dawson, Alexander S. Baras, Avi Z. Rosenberg, Dan E. Arking, Kathleen H. Burns, Akhilesh Pandey, Marc K. Halushka. Towards the human cellular microRNAome. <a href="http://biorxiv.org/content/early/2017/03/24/120394" target="_blank">BioRxiv</a>, 2017.
 
 </p><p>
 
