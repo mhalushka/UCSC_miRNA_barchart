@@ -10,6 +10,7 @@ barChartUnit RPM
 barChartMatrixUrl https://raw.githubusercontent.com/mhalushka/UCSC_miRNA_barchart/master/miRNA_primary_RPM_matrix.txt
 barChartSampleUrl https://raw.githubusercontent.com/mhalushka/UCSC_miRNA_barchart/master/categoriesFile_primary.txt 
 visibility pack
+maxLimit 300000
 defaultPos chr9:136670616-136670636
 htmlPath https://raw.githubusercontent.com/mhalushka/UCSC_miRNA_barchart/master/hg38/primary.html
 priority 1
@@ -25,6 +26,7 @@ barChartLabel Tissues
 barChartUnit RPM
 barChartMatrixUrl https://raw.githubusercontent.com/mhalushka/UCSC_miRNA_barchart/master/miRNA_cancer_RPM_matrix.txt
 barChartSampleUrl https://raw.githubusercontent.com/mhalushka/UCSC_miRNA_barchart/master/categoriesFile_cancer.txt
+maxLimit 300000
 defaultPos chr9:136670616-136670636
 htmlPath https://raw.githubusercontent.com/mhalushka/UCSC_miRNA_barchart/master/hg38/cancer.html
 visibility pack
