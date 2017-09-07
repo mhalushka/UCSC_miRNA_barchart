@@ -12,7 +12,7 @@ barChartSampleUrl https://raw.githubusercontent.com/mhalushka/UCSC_miRNA_barchar
 visibility pack
 maxLimit 300000
 defaultPos chr9:136670616-136670636
-htmlPath https://raw.githubusercontent.com/mhalushka/UCSC_miRNA_barchart/master/hg38/primary.html
+html https://raw.githubusercontent.com/mhalushka/UCSC_miRNA_barchart/master/hg38/primary.html
 priority 1
 
 track cancer_cells
@@ -28,5 +28,5 @@ barChartMatrixUrl https://raw.githubusercontent.com/mhalushka/UCSC_miRNA_barchar
 barChartSampleUrl https://raw.githubusercontent.com/mhalushka/UCSC_miRNA_barchart/master/categoriesFile_cancer.txt
 maxLimit 300000
 defaultPos chr9:136670616-136670636
-htmlPath https://raw.githubusercontent.com/mhalushka/UCSC_miRNA_barchart/master/hg38/cancer.html
+html https://raw.githubusercontent.com/mhalushka/UCSC_miRNA_barchart/master/hg38/cancer.html
 visibility pack
