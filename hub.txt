@@ -3,4 +3,4 @@ shortLabel Towards the human cellular microRNAome
 longLabel Evaluation of 8 billion small RNA-seq reads from 46 primary cell types, 42 cancer or immortalized cell lines, and 26 tissues.
 email mhalush1@jhmi.edu
 genomesFile genomes.txt
-descriptionUrl description.html
+descriptionUrl https://rawgit.com/mhalushka/UCSC_miRNA_barchart/master/description.html
