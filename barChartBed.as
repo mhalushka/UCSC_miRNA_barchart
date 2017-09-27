@@ -1,4 +1,4 @@
-table miRNAEome
+table miRNAome
 "miRNA expression barChart"
 (
 string chrom;               "Reference sequence chromosome or scaffold"
