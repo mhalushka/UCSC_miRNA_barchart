@@ -1,6 +1,6 @@
-hub Cellular microRNAome 
-shortLabel Towards the human cellular microRNAome
-longLabel Evaluation of 8 billion small RNA-seq reads from 46 primary cell types, 42 cancer or immortalized cell lines, and 26 tissues.
-email mhalush1@jhmi.edu
+hub miRNAome
+shortLabel Human cellular microRNAome
+longLabel Evaluation of >10 billion small RNA-seq reads from 78 primary cell types and 42 cancer or immortalized cell lines from 3 main studies.
 genomesFile genomes.txt
-descriptionUrl https://rawgit.com/mhalushka/UCSC_miRNA_barchart/master/description.html
+email mhalush1@jhmi.edu
+descriptionUrl http://genome.cshlp.org/content/early/2017/09/06/gr.222067.117.long
