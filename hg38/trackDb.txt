@@ -24,8 +24,8 @@ longLabel miRNA expression of cancer cells
 bigDataUrl https://raw.githubusercontent.com/mhalushka/UCSC_miRNA_barchart/master/miRNA_cancer_barchart.bb
 barChartLabel Tissues
 barChartUnit RPM
-#barChartMatrixUrl https://raw.githubusercontent.com/mhalushka/UCSC_miRNA_barchart/master/miRNA_cancer_RPM_matrix.txt
-#barChartSampleUrl https://raw.githubusercontent.com/mhalushka/UCSC_miRNA_barchart/master/categoriesFile_cancer.txt
+barChartMatrixUrl https://raw.githubusercontent.com/mhalushka/UCSC_miRNA_barchart/master/miRNA_cancer_RPM_matrix.txt
+barChartSampleUrl https://raw.githubusercontent.com/mhalushka/UCSC_miRNA_barchart/master/categoriesFile_cancer.txt
 maxLimit 300000
 defaultPos chr9:136670616-136670636
 html https://raw.githubusercontent.com/mhalushka/UCSC_miRNA_barchart/master/hg38/cancer.html
